@@ -33,18 +33,17 @@ This pacman game was developped with A* algorithm to simulate the action which t
 
 ## **Installing**
 ```
-git clone https://github.com/tainp98/pacman.git
-cd pacman
-py -m pip install -r requirements.txt (on Window)
-python/python3 -m pip install -r requirements.txt (on Ubuntu)
+git clone https://github.com/tainp98/myproject.git
+cd myproject
+sudo python3/python setup.py install
 ```
 
 ---
 
 ## **How To Use**
 1. Run program
-   - py main.py (on Window)
-   - python/python3 (on Ubuntu)
+   - sudo chmod +x run.sh
+   - ./run.sh
 2. KeyBroad
    - Press any keybroad to start game
    - Then press keybroad[1,2,3,4,5,6,7,8,9,q,w,e,r,a,s] to start action add coins to maze [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15] numbers of coin 
